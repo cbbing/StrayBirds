@@ -34,7 +34,7 @@ excerpt_separator: "\n\n"
 detach:       false
 port:         4000
 host:         127.0.0.1
-baseurl:      "" # does not include hostname
+baseurl:      "/blog" # does not include hostname
 
 # Outputting
 permalink:     date
@@ -110,7 +110,7 @@ customLinks:
 #comment config
 disqus:
   config: false
-  id: minixalpha
+  id: disqus_VmZzCsohTP
 
 
 #################################### global configure #######################################
@@ -120,10 +120,10 @@ baseurl: /binger
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 飞鸟集
-description: 人生到处知何似，应似飞鸿踏雪泥
-theme: kunka
-disqusname: minixalpha
+title: Binger
+description: Python金融集
+theme: minimal
+disqusname: disqus_VmZzCsohTP
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
 # those themes are all come from GitHub Pages Themes
